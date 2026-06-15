@@ -40,6 +40,12 @@ mysql -h 127.0.0.1 -P 3306 -u root -p
 123456
 ```
 
+### 第二步：关闭 MySQL
+
+```bash
+docker compose down
+```
+
 ## 2. 使用本机已安装的 MySQL
 
 如果你本地已经安装 MySQL，可以直接连接：
